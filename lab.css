@@ -1,6 +1,6 @@
 #menu {
   font-size: 18px;
-  color: white;
+  color: red;
   position: absolute;
   right: 15px;
   top: 4px;
@@ -19,3 +19,4 @@
   opacity: 1 !important;
   transition: .5s;
 }
+
