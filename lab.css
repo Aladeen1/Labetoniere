@@ -1,0 +1,21 @@
+#menu {
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  right: 15px;
+  top: 4px;
+}
+
+#menu img {
+  width: 20px;
+}
+
+.toggle {
+  opacity: 0;
+  transition: .5s;
+}
+
+.toggle.showm {
+  opacity: 1 !important;
+  transition: .5s;
+}
