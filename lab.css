@@ -108,9 +108,23 @@ ul {
   padding-left: 0px;
 }
 
-
 .navbar {
   display: flex;
   justify-content: space-between;
+}
+
+
+#iconright {
+  text-align: right;
+}
+
+#iconleft {
+  text-align: left;
+}
+
+.sharemenu {
+  background-color: rgba(156, 31, 31, 0.35);
+  font-size: 50px;
+  padding: 10px;
 }
 
