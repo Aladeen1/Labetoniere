@@ -1,3 +1,4 @@
+
 html,body
 {
     width: 100%;
@@ -11,14 +12,16 @@ html,body
 
 #menu {
   font-size: 18px;
+
+.menu {
+  font-size: 25px;
+
   color: white;
-  position: absolute;
-  right: 15px;
-  top: 4px;
 }
 
-#menu img {
-  width: 20px;
+.menu img {
+  width: 50px;
+  height:50px;
 }
 
 .toggle {
@@ -30,6 +33,7 @@ html,body
   opacity: 1 !important;
   transition: .5s;
 }
+
 
 /* ------------------------------------------------- */
 
@@ -103,4 +107,20 @@ html,body
 
 
 
+
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+html {
+  margin: 20px;
+  background-color: red;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
 
