@@ -20,6 +20,7 @@
 
 ul {
   list-style: none;
+  padding-left: 0px;
 }
 
 html {
@@ -29,4 +30,5 @@ html {
 
 .navbar {
   display: flex;
+  justify-content: space-between;
 }
