@@ -12,10 +12,9 @@ html,body
 
 #menu {
   font-size: 18px;
-
+}
 .menu {
   font-size: 25px;
-
   color: white;
 }
 
@@ -35,14 +34,14 @@ html,body
 }
 
 
-/* ------------------------------------------------- */
+/* ---------------landing page---------------------------------- */
 
 .landing-p {
   background-image: url('https://res.cloudinary.com/ebc-industries/image/upload/v1539704139/concrete.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 80vh;
+  height: 90vh;
 }
 
 .logo-landing-p img {
@@ -68,6 +67,40 @@ html,body
   margin-left: auto;
   margin-right: auto;
 }
+
+/* ------------intro --------------------- */
+
+.intro-landing-p {
+  background-color: rgb(243, 241, 240)
+}
+
+.intro1 {
+  font-family: 'Bai Jamjuree', sans-serif;
+  text-align: center;
+  font-size: 39px;
+  padding-top: 120px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: auto;
+  text-shadow: 1px 1px #FFAA5A;
+}
+
+.intro2 {
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+  padding-top: 120px;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 140px;
+
+}
+
+
+
+
+
+
+
 
 
 ul {
