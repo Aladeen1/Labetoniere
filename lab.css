@@ -23,12 +23,32 @@ ul {
   padding-left: 0px;
 }
 
+body {
+  margin-right: 0px;
+}
+
 html {
-  margin: 20px;
-  background-color: red;
+  margin: 20px 40px;
+  margin-right: 0px;
+  background-color: grey;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
 }
+
+#iconright {
+  text-align: right;
+}
+
+#iconleft {
+  text-align: left;
+}
+
+.sharemenu {
+  background-color: rgba(156, 31, 31, 0.35);
+  font-size: 50px;
+  padding: 10px;
+}
+
