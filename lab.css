@@ -5,7 +5,7 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 /* ICI SE TROUVE LE MENU DROPDOWN  -- 1 -- */
@@ -92,10 +92,55 @@ html,body
   padding-left: 7%;
   padding-right: 7%;
   padding-bottom: 140px;
-
+  margin: auto;
 }
 
 
+/* -----------phones------------------ */
+
+.phones-landing-p {
+  background-image: linear-gradient(to bottom, #6a727a, #7c8790, #8f9ca6, #a2b2be, #b6c8d5);
+  padding-top: 200px;
+
+}
+
+.phone1-div {
+  position: relative;
+}
+
+.phone1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+.inner-image-phone1 {
+  position: absolute;
+  height: 750px;
+  top: 140px;
+  right: 278px;
+}
+
+.brand-phone1 h4 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+  padding-top: 70px;
+  text-align: center;
+}
+
+.brand-phone1 p {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 200px;
+}
 
 
 
