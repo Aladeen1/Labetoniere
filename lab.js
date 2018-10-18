@@ -1,12 +1,18 @@
 console.log("hello")
-const menu1 = document.getElementById('menu1');
-const menu2 = document.getElementById('menu2');
-const toggle1 = document.getElementById('toggle1');
-const toggle2 = document.getElementById('toggle2');
+const dropTarget = document.getElementById('dropTarget');
+const shareTarget = document.getElementById('shareTarget');
+const dropApparition = document.getElementById('dropApparition');
+const shareApparition = document.getElementById('shareApparition');
 
-menu1.addEventListener("click", function() { yo(toggle1) });
-menu2.addEventListener("click", function() { yo(toggle2) });
 
-function yo(which) {
-  which.classList.toggle("showm");
+dropTarget.addEventListener("click", function() { slideDrop(dropApparition) });
+shareTarget.addEventListener("click", function() { slideShare(shareApparition) });
+
+function slideDrop(menuActif) {
+  menuActif.classList.toggle("notHiddenPosition");
+  dropTarget.classList.toggle("active");
+}
+
+function slideShare(menuActif) {
+  menuActif.classList.toggle("positionPasCachée");
 }

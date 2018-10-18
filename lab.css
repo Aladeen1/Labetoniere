@@ -8,29 +8,98 @@ html,body
     /* overflow-x: hidden; */
 }
 
+ul {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+
 /* ICI SE TROUVE LE MENU DROPDOWN  -- 1 -- */
 
-#menu {
-  font-size: 18px;
-}
-.menu {
-  font-size: 25px;
-  color: white;
-}
-
-.menu img {
+#dropTarget {
+  height: 50px;
   width: 50px;
-  height:50px;
+  transition: 1s;
+  position: relative;
+  right: -215px;
+  top: 20px;
+  transition: 1s;
 }
 
-.toggle {
-  opacity: 0;
-  transition: .5s;
+#dropTarget.active {
+  right: -120px;
 }
 
-.toggle.showm {
-  opacity: 1 !important;
-  transition: .5s;
+.styleDropList {
+  font-size: 30px;
+  text-align: center;
+  margin: 0px;
+}
+
+#firstoflist {
+  margin-top: 30px;
+}
+.stylelist {
+  padding: 15px 35px;
+}
+
+.stylelist:hover {
+  transition: .7s;
+  background-color: white;
+  color: black;
+}
+
+.hiddenPosition{
+  background-color: black;
+  position: relative;
+  left: -185px;
+  color: white;
+  transition: 1s;
+} .notHiddenPosition {
+  left: 0px;
+}
+
+
+
+/* --------------------- sharemenu ------------------- */
+
+.policemenu {
+  font-size: 40px;
+  padding: 20px 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+} i {
+  padding: 0px 20px;
+  padding-left: 5px;
+} #facebook {
+  background-color: rgba(16, 39, 56, 0.35);
+} #instagram {
+  background-color: rgba(156, 31, 31, 0.35);
+} #linkedin {
+  background-color: rgba(99, 179, 224, 0.35);
+}
+
+#shareTarget {
+  height: 60px;
+  width: 60px;
+  padding-right: 20px;
+  padding-top: 15px;
+}
+
+.positionCachée {
+  transition: 1s;
+  position: absolute;
+  right: -300px;
+  opacity: 1;
+  margin: 0px;
+  } .positionPasCachée {
+  right: 0px;
 }
 
 
@@ -89,7 +158,6 @@ html,body
     top: 2px;
   }
 }
-
 
 .arrow-landing-p img {
   display: block;
@@ -178,28 +246,17 @@ html,body
 
 
 
-ul {
-  list-style: none;
-  padding-left: 0px;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-}
 
 
-#iconright {
-  text-align: right;
-}
 
-#iconleft {
-  text-align: left;
-}
 
-.sharemenu {
-  background-color: rgba(156, 31, 31, 0.35);
-  font-size: 50px;
-  padding: 10px;
-}
+
+
+
+
+
+
+
+
+
 
