@@ -5,7 +5,7 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 ul {
@@ -103,31 +103,60 @@ ul {
 }
 
 
-/* ------------------------------------------------- */
+/* ---------------landing page---------------------------------- */
 
 .landing-p {
   background-image: url('https://res.cloudinary.com/ebc-industries/image/upload/v1539704139/concrete.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 100vh;
+  height: 110vh;
 }
 
 .logo-landing-p img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
-  padding-top: 35%;
+  width: 15vw;
 }
 
+.titre-div {
+  position: relative;
+}
 
 .titre-landing-p h1 {
-  padding-top: 10%;
   font-family: 'Bai Jamjuree', sans-serif;
-  font-size: 130px;
+  font-size: 11.5vw;
+  letter-spacing: 3px;
   color: white;
   text-align: center;
+  margin: 0px;
+}
+
+.inner-title h1 {
+  position: absolute;
+  top: 4px;
+  left: 11vw;
+  mix-blend-mode: hue;
+}
+
+@media screen and (max-width: 1100px) {
+  .inner-title h1 {
+    left: 10vw;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .inner-title h1 {
+    left: 9vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .inner-title h1 {
+    left: 7vw;
+    top: 2px;
+  }
 }
 
 .arrow-landing-p img {
@@ -135,6 +164,86 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* ------------intro --------------------- */
+
+.intro-landing-p {
+  background-color: rgb(243, 241, 240)
+}
+
+.intro1 {
+  font-family: 'Bai Jamjuree', sans-serif;
+  text-align: center;
+  font-size: 39px;
+  padding-top: 120px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: auto;
+  text-shadow: 1px 1px #FFAA5A;
+}
+
+.intro2 {
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+  padding-top: 120px;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 140px;
+  margin: auto;
+}
+
+
+/* -----------phones------------------ */
+
+.phones-landing-p {
+  background-image: linear-gradient(to bottom, #6a727a, #7c8790, #8f9ca6, #a2b2be, #b6c8d5);
+  padding-top: 200px;
+
+}
+
+.phone1-div {
+  position: relative;
+}
+
+.phone1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+}
+
+.inner-image-phone1 {
+  position: absolute;
+  width: 72vw;
+  top: 70px;
+  right: 50%;
+  margin-right: -36vw;
+}
+
+.brand-phone1 h4 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+  padding-top: 70px;
+  text-align: center;
+}
+
+.brand-phone1 p {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 200px;
+}
+
+
+
+
+
 
 
 
