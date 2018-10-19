@@ -26,10 +26,6 @@ ul {
   height: 50px;
   width: 50px;
   transition: 1s;
-  position: relative;
-  right: -215px;
-  top: 20px;
-  transition: 1s;
 }
 
 #dropTarget.active {
@@ -42,9 +38,6 @@ ul {
   margin: 0px;
 }
 
-#firstoflist {
-  margin-top: 30px;
-}
 .stylelist {
   padding: 15px 35px;
 }
@@ -56,20 +49,21 @@ ul {
 }
 
 .hiddenPosition{
-  background-color: black;
-  position: relative;
-  left: -185px;
+  background-color: transparent;
   color: white;
   transition: 1s;
+  position: relative;
+  top: -330px;
 } .notHiddenPosition {
-  left: 0px;
+  color: blue;
+  top: 0px;
 }
 
 
 
 /* --------------------- sharemenu ------------------- */
 
-.policemenu {
+/*.policemenu {
   font-size: 40px;
   padding: 20px 15px;
   font-family: 'Montserrat', sans-serif;
@@ -100,7 +94,7 @@ ul {
   margin: 0px;
   } .positionPasCachée {
   right: 0px;
-}
+}*/
 
 
 /* ---------------landing page---------------------------------- */
