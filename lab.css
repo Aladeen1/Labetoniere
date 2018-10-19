@@ -1,4 +1,3 @@
-
 html,body
 {
     width: 100%;
@@ -14,17 +13,19 @@ ul {
   margin: 0px;
 }
 
+/* ----------NAVBAR------------- */
+
 .navbar {
   display: flex;
   justify-content: space-between;
+  position: fixed;
 }
-
 
 /* ICI SE TROUVE LE MENU DROPDOWN  -- 1 -- */
 
 #dropTarget {
-  height: 50px;
-  width: 50px;
+  height: 12px;
+  width: 27px;
   transition: 1s;
   position: relative;
   right: -215px;
@@ -67,9 +68,9 @@ ul {
 
 
 
-/* --------------------- sharemenu ------------------- */
+/* --------------------- sharemenu -------NON UTILISÉ------------ */
 
-.policemenu {
+/* .policemenu {
   font-size: 40px;
   padding: 20px 15px;
   font-family: 'Montserrat', sans-serif;
@@ -100,72 +101,47 @@ ul {
   margin: 0px;
   } .positionPasCachée {
   right: 0px;
-}
+} */
 
 
-/* ---------------landing page---------------------------------- */
+/* <!------Première section------ MENU + L0G0 + TITRE + Flèche --------> */
 
 .landing-p {
   background-image: url('https://res.cloudinary.com/ebc-industries/image/upload/v1539704139/concrete.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
-  height: 110vh;
+  background-position: center bottom;
+  height: 90vh;
 }
 
 .logo-landing-p img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 15vw;
-}
-
-.titre-div {
-  position: relative;
+  width: 31vw;
+  padding-top: 42%;
 }
 
 .titre-landing-p h1 {
   font-family: 'Bai Jamjuree', sans-serif;
-  font-size: 11.5vw;
-  letter-spacing: 3px;
+  font-weight: 500;
+  font-size: 13vw;
   color: white;
   text-align: center;
   margin: 0px;
+  padding-top: 17%;
 }
 
-.inner-title h1 {
-  position: absolute;
-  top: 4px;
-  left: 11vw;
-  mix-blend-mode: hue;
-}
-
-@media screen and (max-width: 1100px) {
-  .inner-title h1 {
-    left: 10vw;
-  }
-}
-
-@media screen and (max-width: 750px) {
-  .inner-title h1 {
-    left: 9vw;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .inner-title h1 {
-    left: 7vw;
-    top: 2px;
-  }
-}
 
 .arrow-landing-p img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 13%;
+  padding-top: 15%;
 }
 
-/* ------------intro --------------------- */
+/* <!----Seconde section--------LES DEUX TEXTES, // INTRO 1 & 2------> */
 
 .intro-landing-p {
   background-color: rgb(243, 241, 240)
@@ -174,30 +150,30 @@ ul {
 .intro1 {
   font-family: 'Bai Jamjuree', sans-serif;
   text-align: center;
-  font-size: 39px;
-  padding-top: 120px;
+  font-size: 24px;
+  padding-top: 70px;
   padding-left: 10%;
   padding-right: 10%;
   margin: auto;
-  text-shadow: 1px 1px #FFAA5A;
+  text-shadow: 1px 1px #FFDE8B;
 }
 
 .intro2 {
   text-align: center;
   font-family: 'Exo 2', sans-serif;
-  padding-top: 120px;
+  font-size: 18px;
+  padding-top: 70px;
   padding-left: 7%;
   padding-right: 7%;
-  padding-bottom: 140px;
   margin: auto;
 }
 
 
-/* -----------phones------------------ */
+/* <!----Troisième section------LE TEL N°1 + BRAND NAME + EXPLICATION------> */
 
 .phones-landing-p {
   background-image: linear-gradient(to bottom, #6a727a, #7c8790, #8f9ca6, #a2b2be, #b6c8d5);
-  padding-top: 200px;
+  padding-top: 80px;
 
 }
 
@@ -225,7 +201,7 @@ ul {
   font-size: 20px;
   font-weight: lighter;
   color: white;
-  padding-top: 70px;
+  padding-top: 30px;
   text-align: center;
 }
 
@@ -237,7 +213,9 @@ ul {
   font-weight: lighter;
   padding-left: 10%;
   padding-right: 10%;
-  padding-bottom: 200px;
+  padding-bottom: 80px;
+  padding-top: 10px;
+  margin-bottom: 0px;
 }
 
 
@@ -257,6 +235,1040 @@ ul {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------TOUT CELA APPARTIENT A LA SECONDE SECTION. A GARDER EN BAS POUR NE PAS GENER-------------- */
+
+.hero {
+  background: #F3F1F0;
+  height: 80vh;
+  width: 100vw;
+  overflow: hidden;
+
+}
+.grid {
+  transform: rotate(45deg);
+}
+.grid .grid-block {
+  background: lightgrey;
+  opacity: 0.1;
+  margin: 3px;
+  display: inline-block;
+  position: absolute;
+  top: -300vh;
+  opacity: 0.5 !important;
+}
+@keyframes changewidth {
+  from {
+    top: -350vh;
+  }
+  to {
+    top: 350vh;
+  }
+}
+.grid .block1 {
+  left: 2vw;
+  min-height: 60px;
+  animation-duration: 4800ms;
+  animation-delay: 12ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 12;
+  min-width: 12px;
+  border-radius: 12px;
+}
+.grid .block2 {
+  left: 4vw;
+  min-height: 5px;
+  animation-duration: 400ms;
+  animation-delay: 1ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 1;
+  min-width: 1px;
+  border-radius: 1px;
+}
+.grid .block3 {
+  left: 6vw;
+  min-height: 170px;
+  animation-duration: 13600ms;
+  animation-delay: 34ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 34;
+  min-width: 34px;
+  border-radius: 34px;
+}
+.grid .block4 {
+  left: 8vw;
+  min-height: 5px;
+  animation-duration: 400ms;
+  animation-delay: 1ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 1;
+  min-width: 1px;
+  border-radius: 1px;
+}
+.grid .block5 {
+  left: 10vw;
+  min-height: 115px;
+  animation-duration: 9200ms;
+  animation-delay: 23ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 23;
+  min-width: 23px;
+  border-radius: 23px;
+}
+.grid .block6 {
+  left: 12vw;
+  min-height: 35px;
+  animation-duration: 2800ms;
+  animation-delay: 7ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 7;
+  min-width: 7px;
+  border-radius: 7px;
+}
+.grid .block7 {
+  left: 14vw;
+  min-height: 20px;
+  animation-duration: 1600ms;
+  animation-delay: 4ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 4;
+  min-width: 4px;
+  border-radius: 4px;
+}
+.grid .block8 {
+  left: 16vw;
+  min-height: 60px;
+  animation-duration: 4800ms;
+  animation-delay: 12ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 12;
+  min-width: 12px;
+  border-radius: 12px;
+}
+.grid .block9 {
+  left: 18vw;
+  min-height: 95px;
+  animation-duration: 7600ms;
+  animation-delay: 19ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 19;
+  min-width: 19px;
+  border-radius: 19px;
+}
+.grid .block10 {
+  left: 20vw;
+  min-height: 170px;
+  animation-duration: 13600ms;
+  animation-delay: 34ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 34;
+  min-width: 34px;
+  border-radius: 34px;
+}
+.grid .block11 {
+  left: 22vw;
+  min-height: 100px;
+  animation-duration: 8000ms;
+  animation-delay: 20ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 20;
+  min-width: 20px;
+  border-radius: 20px;
+}
+.grid .block12 {
+  left: 24vw;
+  min-height: 95px;
+  animation-duration: 7600ms;
+  animation-delay: 19ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 19;
+  min-width: 19px;
+  border-radius: 19px;
+}
+.grid .block13 {
+  left: 26vw;
+  min-height: 100px;
+  animation-duration: 8000ms;
+  animation-delay: 20ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 20;
+  min-width: 20px;
+  border-radius: 20px;
+}
+.grid .block14 {
+  left: 28vw;
+  min-height: 45px;
+  animation-duration: 3600ms;
+  animation-delay: 9ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 9;
+  min-width: 9px;
+  border-radius: 9px;
+}
+.grid .block15 {
+  left: 30vw;
+  min-height: 200px;
+  animation-duration: 16000ms;
+  animation-delay: 40ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 40;
+  min-width: 40px;
+  border-radius: 40px;
+}
+.grid .block16 {
+  left: 32vw;
+  min-height: 170px;
+  animation-duration: 13600ms;
+  animation-delay: 34ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 34;
+  min-width: 34px;
+  border-radius: 34px;
+}
+.grid .block17 {
+  left: 34vw;
+  min-height: 70px;
+  animation-duration: 5600ms;
+  animation-delay: 14ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 14;
+  min-width: 14px;
+  border-radius: 14px;
+}
+.grid .block18 {
+  left: 36vw;
+  min-height: 170px;
+  animation-duration: 13600ms;
+  animation-delay: 34ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 34;
+  min-width: 34px;
+  border-radius: 34px;
+}
+.grid .block19 {
+  left: 38vw;
+  min-height: 80px;
+  animation-duration: 6400ms;
+  animation-delay: 16ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 16;
+  min-width: 16px;
+  border-radius: 16px;
+}
+.grid .block20 {
+  left: 40vw;
+  min-height: 105px;
+  animation-duration: 8400ms;
+  animation-delay: 21ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 21;
+  min-width: 21px;
+  border-radius: 21px;
+}
+.grid .block21 {
+  left: 42vw;
+  min-height: 135px;
+  animation-duration: 10800ms;
+  animation-delay: 27ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 27;
+  min-width: 27px;
+  border-radius: 27px;
+}
+.grid .block22 {
+  left: 44vw;
+  min-height: 225px;
+  animation-duration: 18000ms;
+  animation-delay: 45ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 45;
+  min-width: 45px;
+  border-radius: 45px;
+}
+.grid .block23 {
+  left: 46vw;
+  min-height: 250px;
+  animation-duration: 20000ms;
+  animation-delay: 50ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 50;
+  min-width: 50px;
+  border-radius: 50px;
+}
+.grid .block24 {
+  left: 48vw;
+  min-height: 100px;
+  animation-duration: 8000ms;
+  animation-delay: 20ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 20;
+  min-width: 20px;
+  border-radius: 20px;
+}
+.grid .block25 {
+  left: 50vw;
+  min-height: 5px;
+  animation-duration: 400ms;
+  animation-delay: 1ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 1;
+  min-width: 1px;
+  border-radius: 1px;
+}
+.grid .block26 {
+  left: 52vw;
+  min-height: 125px;
+  animation-duration: 10000ms;
+  animation-delay: 25ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 25;
+  min-width: 25px;
+  border-radius: 25px;
+}
+.grid .block27 {
+  left: 54vw;
+  min-height: 190px;
+  animation-duration: 15200ms;
+  animation-delay: 38ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 38;
+  min-width: 38px;
+  border-radius: 38px;
+}
+.grid .block28 {
+  left: 56vw;
+  min-height: 30px;
+  animation-duration: 2400ms;
+  animation-delay: 6ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 6;
+  min-width: 6px;
+  border-radius: 6px;
+}
+.grid .block29 {
+  left: 58vw;
+  min-height: 95px;
+  animation-duration: 7600ms;
+  animation-delay: 19ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 19;
+  min-width: 19px;
+  border-radius: 19px;
+}
+.grid .block30 {
+  left: 60vw;
+  min-height: 205px;
+  animation-duration: 16400ms;
+  animation-delay: 41ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 41;
+  min-width: 41px;
+  border-radius: 41px;
+}
+.grid .block31 {
+  left: 62vw;
+  min-height: 230px;
+  animation-duration: 18400ms;
+  animation-delay: 46ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 46;
+  min-width: 46px;
+  border-radius: 46px;
+}
+.grid .block32 {
+  left: 64vw;
+  min-height: 35px;
+  animation-duration: 2800ms;
+  animation-delay: 7ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 7;
+  min-width: 7px;
+  border-radius: 7px;
+}
+.grid .block33 {
+  left: 66vw;
+  min-height: 30px;
+  animation-duration: 2400ms;
+  animation-delay: 6ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 6;
+  min-width: 6px;
+  border-radius: 6px;
+}
+.grid .block34 {
+  left: 68vw;
+  min-height: 120px;
+  animation-duration: 9600ms;
+  animation-delay: 24ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 24;
+  min-width: 24px;
+  border-radius: 24px;
+}
+.grid .block35 {
+  left: 70vw;
+  min-height: 70px;
+  animation-duration: 5600ms;
+  animation-delay: 14ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 14;
+  min-width: 14px;
+  border-radius: 14px;
+}
+.grid .block36 {
+  left: 72vw;
+  min-height: 15px;
+  animation-duration: 1200ms;
+  animation-delay: 3ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 3;
+  min-width: 3px;
+  border-radius: 3px;
+}
+.grid .block37 {
+  left: 74vw;
+  min-height: 155px;
+  animation-duration: 12400ms;
+  animation-delay: 31ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 31;
+  min-width: 31px;
+  border-radius: 31px;
+}
+.grid .block38 {
+  left: 76vw;
+  min-height: 230px;
+  animation-duration: 18400ms;
+  animation-delay: 46ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 46;
+  min-width: 46px;
+  border-radius: 46px;
+}
+.grid .block39 {
+  left: 78vw;
+  min-height: 125px;
+  animation-duration: 10000ms;
+  animation-delay: 25ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 25;
+  min-width: 25px;
+  border-radius: 25px;
+}
+.grid .block40 {
+  left: 80vw;
+  min-height: 205px;
+  animation-duration: 16400ms;
+  animation-delay: 41ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 41;
+  min-width: 41px;
+  border-radius: 41px;
+}
+.grid .block41 {
+  left: 82vw;
+  min-height: 180px;
+  animation-duration: 14400ms;
+  animation-delay: 36ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 36;
+  min-width: 36px;
+  border-radius: 36px;
+}
+.grid .block42 {
+  left: 84vw;
+  min-height: 140px;
+  animation-duration: 11200ms;
+  animation-delay: 28ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 28;
+  min-width: 28px;
+  border-radius: 28px;
+}
+.grid .block43 {
+  left: 86vw;
+  min-height: 220px;
+  animation-duration: 17600ms;
+  animation-delay: 44ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 44;
+  min-width: 44px;
+  border-radius: 44px;
+}
+.grid .block44 {
+  left: 88vw;
+  min-height: 50px;
+  animation-duration: 4000ms;
+  animation-delay: 10ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 10;
+  min-width: 10px;
+  border-radius: 10px;
+}
+.grid .block45 {
+  left: 90vw;
+  min-height: 40px;
+  animation-duration: 3200ms;
+  animation-delay: 8ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 8;
+  min-width: 8px;
+  border-radius: 8px;
+}
+.grid .block46 {
+  left: 92vw;
+  min-height: 175px;
+  animation-duration: 14000ms;
+  animation-delay: 35ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 35;
+  min-width: 35px;
+  border-radius: 35px;
+}
+.grid .block47 {
+  left: 94vw;
+  min-height: 235px;
+  animation-duration: 18800ms;
+  animation-delay: 47ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 47;
+  min-width: 47px;
+  border-radius: 47px;
+}
+.grid .block48 {
+  left: 96vw;
+  min-height: 70px;
+  animation-duration: 5600ms;
+  animation-delay: 14ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 14;
+  min-width: 14px;
+  border-radius: 14px;
+}
+.grid .block49 {
+  left: 98vw;
+  min-height: 185px;
+  animation-duration: 14800ms;
+  animation-delay: 37ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 37;
+  min-width: 37px;
+  border-radius: 37px;
+}
+.grid .block50 {
+  left: 100vw;
+  min-height: 45px;
+  animation-duration: 3600ms;
+  animation-delay: 9ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 9;
+  min-width: 9px;
+  border-radius: 9px;
+}
+.grid .block51 {
+  left: 102vw;
+  min-height: 105px;
+  animation-duration: 8400ms;
+  animation-delay: 21ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 21;
+  min-width: 21px;
+  border-radius: 21px;
+}
+.grid .block52 {
+  left: 104vw;
+  min-height: 80px;
+  animation-duration: 6400ms;
+  animation-delay: 16ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 16;
+  min-width: 16px;
+  border-radius: 16px;
+}
+.grid .block53 {
+  left: 106vw;
+  min-height: 225px;
+  animation-duration: 18000ms;
+  animation-delay: 45ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 45;
+  min-width: 45px;
+  border-radius: 45px;
+}
+.grid .block54 {
+  left: 108vw;
+  min-height: 80px;
+  animation-duration: 6400ms;
+  animation-delay: 16ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 16;
+  min-width: 16px;
+  border-radius: 16px;
+}
+.grid .block55 {
+  left: 110vw;
+  min-height: 205px;
+  animation-duration: 16400ms;
+  animation-delay: 41ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 41;
+  min-width: 41px;
+  border-radius: 41px;
+}
+.grid .block56 {
+  left: 112vw;
+  min-height: 200px;
+  animation-duration: 16000ms;
+  animation-delay: 40ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 40;
+  min-width: 40px;
+  border-radius: 40px;
+}
+.grid .block57 {
+  left: 114vw;
+  min-height: 180px;
+  animation-duration: 14400ms;
+  animation-delay: 36ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 36;
+  min-width: 36px;
+  border-radius: 36px;
+}
+.grid .block58 {
+  left: 116vw;
+  min-height: 205px;
+  animation-duration: 16400ms;
+  animation-delay: 41ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 41;
+  min-width: 41px;
+  border-radius: 41px;
+}
+.grid .block59 {
+  left: 118vw;
+  min-height: 195px;
+  animation-duration: 15600ms;
+  animation-delay: 39ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 39;
+  min-width: 39px;
+  border-radius: 39px;
+}
+.grid .block60 {
+  left: 120vw;
+  min-height: 90px;
+  animation-duration: 7200ms;
+  animation-delay: 18ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 18;
+  min-width: 18px;
+  border-radius: 18px;
+}
+.grid .block61 {
+  left: 122vw;
+  min-height: 65px;
+  animation-duration: 5200ms;
+  animation-delay: 13ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 13;
+  min-width: 13px;
+  border-radius: 13px;
+}
+.grid .block62 {
+  left: 124vw;
+  min-height: 65px;
+  animation-duration: 5200ms;
+  animation-delay: 13ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 13;
+  min-width: 13px;
+  border-radius: 13px;
+}
+.grid .block63 {
+  left: 126vw;
+  min-height: 80px;
+  animation-duration: 6400ms;
+  animation-delay: 16ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 16;
+  min-width: 16px;
+  border-radius: 16px;
+}
+.grid .block64 {
+  left: 128vw;
+  min-height: 200px;
+  animation-duration: 16000ms;
+  animation-delay: 40ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 40;
+  min-width: 40px;
+  border-radius: 40px;
+}
+.grid .block65 {
+  left: 130vw;
+  min-height: 165px;
+  animation-duration: 13200ms;
+  animation-delay: 33ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 33;
+  min-width: 33px;
+  border-radius: 33px;
+}
+.grid .block66 {
+  left: 132vw;
+  min-height: 110px;
+  animation-duration: 8800ms;
+  animation-delay: 22ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 22;
+  min-width: 22px;
+  border-radius: 22px;
+}
+.grid .block67 {
+  left: 134vw;
+  min-height: 205px;
+  animation-duration: 16400ms;
+  animation-delay: 41ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 41;
+  min-width: 41px;
+  border-radius: 41px;
+}
+.grid .block68 {
+  left: 136vw;
+  min-height: 25px;
+  animation-duration: 2000ms;
+  animation-delay: 5ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 5;
+  min-width: 5px;
+  border-radius: 5px;
+}
+.grid .block69 {
+  left: 138vw;
+  min-height: 250px;
+  animation-duration: 20000ms;
+  animation-delay: 50ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 50;
+  min-width: 50px;
+  border-radius: 50px;
+}
+.grid .block70 {
+  left: 140vw;
+  min-height: 75px;
+  animation-duration: 6000ms;
+  animation-delay: 15ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 15;
+  min-width: 15px;
+  border-radius: 15px;
+}
+.grid .block71 {
+  left: 142vw;
+  min-height: 30px;
+  animation-duration: 2400ms;
+  animation-delay: 6ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 6;
+  min-width: 6px;
+  border-radius: 6px;
+}
+.grid .block72 {
+  left: 144vw;
+  min-height: 135px;
+  animation-duration: 10800ms;
+  animation-delay: 27ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 27;
+  min-width: 27px;
+  border-radius: 27px;
+}
+.grid .block73 {
+  left: 146vw;
+  min-height: 40px;
+  animation-duration: 3200ms;
+  animation-delay: 8ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 8;
+  min-width: 8px;
+  border-radius: 8px;
+}
+.grid .block74 {
+  left: 148vw;
+  min-height: 175px;
+  animation-duration: 14000ms;
+  animation-delay: 35ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 35;
+  min-width: 35px;
+  border-radius: 35px;
+}
+.grid .block75 {
+  left: 150vw;
+  min-height: 205px;
+  animation-duration: 16400ms;
+  animation-delay: 41ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 41;
+  min-width: 41px;
+  border-radius: 41px;
+}
+.grid .block76 {
+  left: 152vw;
+  min-height: 60px;
+  animation-duration: 4800ms;
+  animation-delay: 12ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 12;
+  min-width: 12px;
+  border-radius: 12px;
+}
+.grid .block77 {
+  left: 154vw;
+  min-height: 155px;
+  animation-duration: 12400ms;
+  animation-delay: 31ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 31;
+  min-width: 31px;
+  border-radius: 31px;
+}
+.grid .block78 {
+  left: 156vw;
+  min-height: 20px;
+  animation-duration: 1600ms;
+  animation-delay: 4ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 4;
+  min-width: 4px;
+  border-radius: 4px;
+}
+.grid .block79 {
+  left: 158vw;
+  min-height: 115px;
+  animation-duration: 9200ms;
+  animation-delay: 23ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 23;
+  min-width: 23px;
+  border-radius: 23px;
+}
+.grid .block80 {
+  left: 160vw;
+  min-height: 215px;
+  animation-duration: 17200ms;
+  animation-delay: 43ms;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 43;
+  min-width: 43px;
+  border-radius: 43px;
+}
 
 
 
