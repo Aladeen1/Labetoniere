@@ -288,23 +288,67 @@ width: 100vw
 }
 
 
-/* --------test------------------ */
+/* ------------Phone 3-------------- */
 
 
-/* .pictest {
-  position: sticky;
-  bottom: 0;
-  z-index: -8;
-  height: 250px;
-  width: 100vw
+.wrap3-phones-landing {
+padding-top: 80px;
+position: sticky;
+bottom: 0;
+z-index: -5;
+height: 140vh;
+width: 100vw
 }
 
-.pictest img {
-  width: 100vw;
+
+.phones-landing-p3 {
+  background-image: url('https://images.unsplash.com/photo-1515462277126-2dd0c162007a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b9b8ca05b253e33c9009832bca8d68c0&auto=format&fit=crop&w=635&q=80');
 }
 
- */
+.phone3-div {
+  position: relative;
+}
 
+.phone3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  margin-top: 265px;
+  padding-top: 70px;
+}
+
+.inner-image-phone3 {
+  position: absolute;
+  width: 72vw;
+  height: 70vh;
+  top: 143px;
+  right: 50%;
+  margin-right: -36vw;
+
+}
+
+.brand-phone3 h4 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.brand-phone3 p {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 45px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
 
 
 
