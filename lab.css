@@ -2,7 +2,7 @@ html,body
 {
     width: 100%;
     height: 100%;
-    margin: 0px;
+    margin: 0;
     padding: 0px;
     /* overflow-x: hidden; */
 }
@@ -170,10 +170,18 @@ ul {
 
 
 /* <!----Troisième section------LE TEL N°1 + BRAND NAME + EXPLICATION------> */
+.wrap-phones-landing {
+  padding-top: 80px;
+  position: sticky;
+  bottom: 0;
+  z-index: -3;
+  height: 100vh;
+  width: 100vw
+}
 
 .phones-landing-p {
   background-image: linear-gradient(to bottom, #6a727a, #7c8790, #8f9ca6, #a2b2be, #b6c8d5);
-  padding-top: 80px;
+
 
 }
 
@@ -186,12 +194,13 @@ ul {
   margin-left: auto;
   margin-right: auto;
   width: 80vw;
+  padding-top: 70px;
 }
 
 .inner-image-phone1 {
   position: absolute;
   width: 72vw;
-  top: 70px;
+  top: 143px;
   right: 50%;
   margin-right: -36vw;
 }
@@ -220,10 +229,18 @@ ul {
 
 /* <!----Quatrième section------LE TEL N°2 + BRAND NAME + EXPLICATION------> */
 
-.phones-landing-p2 {
-background-image: radial-gradient(circle, #b6399b, #806fcb, #4791d4, #53a8c4, #89b6b6);
+.wrap2-phones-landing {
 padding-top: 80px;
+position: sticky;
+bottom: 0;
+z-index: -4;
+height: 140vh;
+width: 100vw
+}
 
+
+.phones-landing-p2 {
+  background-image: radial-gradient(circle, #b6399b, #806fcb, #4791d4, #53a8c4, #89b6b6);
 }
 
 .phone2-div {
@@ -235,14 +252,17 @@ padding-top: 80px;
   margin-left: auto;
   margin-right: auto;
   width: 80vw;
+  margin-top: 265px;
+  padding-top: 70px;
 }
 
 .inner-image-phone2 {
   position: absolute;
   width: 72vw;
-  top: 70px;
+  top: 143px;
   right: 50%;
   margin-right: -36vw;
+
 }
 
 .brand-phone2 h4 {
@@ -268,9 +288,22 @@ padding-top: 80px;
 }
 
 
+/* --------test------------------ */
 
 
+/* .pictest {
+  position: sticky;
+  bottom: 0;
+  z-index: -8;
+  height: 250px;
+  width: 100vw
+}
 
+.pictest img {
+  width: 100vw;
+}
+
+ */
 
 
 
