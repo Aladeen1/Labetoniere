@@ -7,10 +7,10 @@ function slideDrop(menuActif) {
   menuActif.classList.toggle("notHiddenPosition");
   dropTarget.classList.toggle("active");
   document.querySelector('.navbar').classList.toggle("navbar-gradient");
-  if (dropTarget.src == "https://res.cloudinary.com/ebc-industries/image/upload/v1534499757/DRopdownicone.png") {
+  if (dropTarget.src == "https://res.cloudinary.com/ebc-industries/image/upload/v1539962317/menuicone.png") {
     dropTarget.src = 'https://res.cloudinary.com/ebc-industries/image/upload/v1540041871/croixicone.png';
   } else {
-    dropTarget.src = "https://res.cloudinary.com/ebc-industries/image/upload/v1534499757/DRopdownicone.png";
+    dropTarget.src = "https://res.cloudinary.com/ebc-industries/image/upload/v1539962317/menuicone.png";
   }
 }
 
