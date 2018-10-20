@@ -16,27 +16,40 @@ ul {
 /* ----------NAVBAR------------- */
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  position: fixed;
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  z-index: 1;
+  background-color: transparent;
+  transition: 1s;
+} .navbar-gradient {
+  background-color:  rgba(32, 29, 29, 0.4);
 }
 
 /* ICI SE TROUVE LE MENU DROPDOWN  -- 1 -- */
+
+.img-wraper {
+
+}
+
 
 #dropTarget {
   height: 12px;
   width: 27px;
   transition: 1s;
-}
-
-#dropTarget.active {
-  right: -120px;
+  text-align: left;
+  justify-content: left;
+  position: absolute;
+  z-index: 2;
+  top: 25px;
+  left: 30px;
 }
 
 .styleDropList {
   font-size: 30px;
   text-align: center;
   margin: 0px;
+  width: 100%;
 }
 
 .stylelist {
@@ -45,19 +58,23 @@ ul {
 
 .stylelist:hover {
   transition: .7s;
-  background-color: white;
+  /*background-color: white;*/
   color: black;
 }
 
 .hiddenPosition{
   background-color: transparent;
-  color: white;
+  color: transparent;
   transition: 1s;
-  position: relative;
-  top: -330px;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  top: -335px;
 } .notHiddenPosition {
-  color: blue;
-  top: 0px;
+  color: white;
+  margin-bottom: : 0px;
+  background-color: transparent;
+  top: 40px;
 }
 
 

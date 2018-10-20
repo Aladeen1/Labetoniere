@@ -6,6 +6,7 @@ const dropApparition = document.getElementById('dropApparition');
 function slideDrop(menuActif) {
   menuActif.classList.toggle("notHiddenPosition");
   dropTarget.classList.toggle("active");
+  document.querySelector('.navbar').classList.toggle("navbar-gradient");
   if (dropTarget.src == "https://res.cloudinary.com/ebc-industries/image/upload/v1534499757/DRopdownicone.png") {
     dropTarget.src = 'https://res.cloudinary.com/ebc-industries/image/upload/v1539892568/croixicone.png';
   } else {
