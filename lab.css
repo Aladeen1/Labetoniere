@@ -207,7 +207,7 @@ ul {
 
 .brand-phone1 p {
   font-family: 'Exo 2', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
   color: white;
   font-weight: lighter;
@@ -218,6 +218,54 @@ ul {
   margin-bottom: 0px;
 }
 
+/* <!----Quatrième section------LE TEL N°2 + BRAND NAME + EXPLICATION------> */
+
+.phones-landing-p2 {
+background-image: radial-gradient(circle, #b6399b, #806fcb, #4791d4, #53a8c4, #89b6b6);
+padding-top: 80px;
+
+}
+
+.phone2-div {
+  position: relative;
+}
+
+.phone2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+}
+
+.inner-image-phone2 {
+  position: absolute;
+  width: 72vw;
+  top: 70px;
+  right: 50%;
+  margin-right: -36vw;
+}
+
+.brand-phone2 h4 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.brand-phone2 p {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 80px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
 
 
 
