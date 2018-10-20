@@ -30,6 +30,7 @@ ul {
 /* ICI SE TROUVE LE MENU DROPDOWN  -- 1 -- */
 
 
+
 #dropTarget {
   height: 40px;
   width: 40px;
@@ -69,6 +70,11 @@ ul {
   background-color: rgba(130, 127, 127, 0.3) ;
 }
 
+.menu--link--style {
+  text-decoration: none;
+  color: #F2F2F2;
+}
+
 .hiddenPosition{
   background-color: transparent;
   color: transparent;
@@ -78,7 +84,6 @@ ul {
   position: absolute;
   top: -335px;
 } .notHiddenPosition {
-  color: #F2F2F2;
   margin-bottom: : 0px;
   background-color: transparent;
   top: 65px;
