@@ -44,7 +44,7 @@ ul {
 }
 
 .styleDropList {
-  font-size: 12px;
+  font-size: 17px;
   margin: 0px;
 }
 
@@ -55,12 +55,6 @@ ul {
   font-family: 'Exo 2', sans-serif;
   font-weight: 200;
   letter-spacing: 1px;
-}
-
-@media screen and (max-width: 600px) {
-  .stylelist {
-    width: 25vw;
-  }
 }
 
 .stylelist:hover {
@@ -136,29 +130,29 @@ ul {
 /* <!------Première section------ MENU + L0G0 + TITRE + Flèche --------> */
 
 .landing-p {
-  background-image: url('https://res.cloudinary.com/ebc-industries/image/upload/v1539704139/concrete.jpg');
+  background-image: url('fontbéton.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
-  height: 90vh;
+  height: 91vh;
 }
 
 .logo-landing-p img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 31vw;
-  padding-top: 42%;
+  width: 13vw;
+  padding-top: 13%;
 }
 
 .titre-landing-p h1 {
-  font-family: 'Bai Jamjuree', sans-serif;
-  font-weight: 500;
-  font-size: 13vw;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
   color: white;
   text-align: center;
   margin: 0px;
-  padding-top: 17%;
+  font-size: 7vw;
+  padding-top: 3%;
 }
 
 
@@ -166,8 +160,8 @@ ul {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 13%;
-  padding-top: 15%;
+  width: 7%;
+  padding-top: 9%;
 }
 
 /* <!----Seconde section--------LES DEUX TEXTES, // INTRO 1 & 2------> */
@@ -380,12 +374,26 @@ width: 100vw
 }
 
 
-
-
-
-
-
-
+@media screen and (max-width: 600px) {
+  .stylelist {
+    width: 25vw;
+  }
+  .arrow-landing-p img {
+    width: 13%;
+    padding-top: 15%;
+  }
+  .titre-landing-p h1 {
+    font-size: 12vw;
+    padding-top: 17%;
+  }
+  .logo-landing-p img  {
+    width: 31vw;
+    padding-top: 42%;
+  }
+  .navbar {
+    height: 26vh;
+  }
+}
 
 
 
