@@ -2,15 +2,33 @@ body {
   background-image: linear-gradient(#585353 20%, rgba(6, 2, 16, 0.95) 100%);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  padding-bottom: 30px;
+  height: 130vh;
 }
 
-/*url('../fontbéton.jpg');*/
+/* Navbar personnalisée pour la page service */
+
+#service {
+  position: relative;
+}
+
 
 h1 {
   color: white;
   text-align: center;
   font-family: Raleway;
+  position: absolute;
+  right: 40.5%;
+  top: 2%;
+  z-index: 5;
+}
+
+.straight {
+  position: absolute;
+  right: 5.5%;
+  top: 11%;
+  width: 90%;
+  border: 0.5px solid white;
 }
 
 p {
@@ -18,13 +36,20 @@ p {
   text-align: center;
   font-family: Raleway;
   text-align: left;
+  font-size: 20px;
 }
 
 .text {
 background-color: grey;
 border-radius: 30px;
 padding: 20px;
-width: 40%;
+} #text-1 {
+  width: 70%;
+} #text-2 {
+  width: 30%;
+  height: 80%;
+  transition: 1s ease;
+  opacity: 0;
 }
 
 .icon {
@@ -33,16 +58,24 @@ width: 40%;
   margin: 25px;
 }
 
+.intracontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: top;
+}
+
 .container1{
   display: flex;
-  justify-content: space-around;
-  margin: 50px 20px;
+  justify-content: space-between;
+  margin: 10px 50px;
 }
 
 .container2 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin: 0px 50px;
+  margin-top: 35px;
+  justify-content: space-between;
 }
 
 .c {
@@ -54,11 +87,17 @@ width: 40%;
   height: 250px;
   width: 250px;
   margin: 25px;
+  margin-right: 150px;
   transition: 1s ease transform;
+  background-image: url('../bétonlogo.png');
+}
+
+.logotarget:hover {
+  background-image: url('../bétonlogohover.png');
 }
 
 #content {
-  /*background-color: grey;*/
+  background-color: grey;
   padding: 15px;
   border-radius: 33px;
   transition: .9s ease opacity,.9s ease transform;
