@@ -5,33 +5,53 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
+  <link rel="stylesheet" type="text/css" href="../lab.css">
   <link rel="stylesheet" type="text/css" href="../Css/apropos.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree:300,400,500" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Exo+2:200,400" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:600, 200, 400" rel="stylesheet">
 
 </head>
 <body>
 
+  <div class="navbar" id="service">
+    <img id="dropTarget" src="https://res.cloudinary.com/ebc-industries/image/upload/v1539962317/menuicone.png">
+   <!--  <div class="img-wraper"> -->
+    <div class="hiddenPosition" id="dropApparition">
+      <ul class="styleDropList">
+        <a href="../index.html" class="menu--link--style"><li class="stylelist">Accueil</li></a>
+        <a href="projets.html" class="menu--link--style"><li class="stylelist">Projets</li></a>
+        <a href="equipe.html" class="menu--link--style"><li class="stylelist">L'équipe</li></a>
+        <a href="" class="menu--link--style"><li class="stylelist">Contact</li></a>
+      </ul>
+    </div>
+  </div>
+
+  <div class="straight"></div>
+
   <h1>Nos services</h1>
 
   <div class="container1">
-    <div class="text">
-      <p> Nous concevons des sites internets pour des entreprises ou des particuliers avec pour but de les aider à réaliser leurs objectifs.</p>
-      <p>Nous intervenons à toutes les étapes de la réalisation de votre site et ce dès la conception du prototype.</p>
-      <p> L'utilisation de logiciels et d'outils performants nous permet de vous impliquer dans la phase de prototypage de votre site et de suivre un plan déterminé pour obtenir un résultat conforme à vos exigences.</p>
-      <p> Les outils que nous utilisons sont à la pointe des dernières technologie en matière de développement web.</p>
+    <div class="intracontainer">
+      <div class="text" id='text-1'>
+        <p>Nous intervenons à toutes les étapes de la réalisation de votre site et ce dès la conception du prototype.</p>
+        <p> Le prototype du site nous permet suivre un plan déterminé pour obtenir un résultat conforme à vos exigences.</p>
+        <p> Chez la bétonnière nous consacrons 100% de notre énergie sur votre projet et vous promettons disponibilité et réactivité</p>
+      </div>
     </div>
     <div class="logoB" id="target">
-        <img style="transform: rotate(0deg);" class="logotarget" src="../bétonlogo.png">
+        <div style="transform: rotate(0deg);" class="logotarget rotated-image" id="litourné">
+        </div>
     </div>
   </div>
 
   <div class="container2">
 
+    <div class="text" id='text-2'>
+      <p> Les outils que nous utilisons sont à la pointe des dernières technologie en matière de développement web.</p>
+    </div>
 
     <div id="content" style="display: none;">
       <div class="c">
@@ -54,5 +74,6 @@
 
 
   <script src="../javascripts/apropos.js"></script>
+  <script src="../lab.js"></script>
 </body>
 </html>
