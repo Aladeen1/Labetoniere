@@ -25,28 +25,31 @@ h1 {
 
 .straight {
   position: absolute;
-  right: 5.5%;
-  top: 11%;
-  width: 90%;
+  right: 9.8%;
+  top: 12.6%;
+  width: 80%;
   border: 0.5px solid white;
 }
 
-p {
+.text-list {
+  line-height: 25px;
   color: white;
   text-align: center;
   font-family: Raleway;
   text-align: left;
-  font-size: 20px;
+  font-size: 18px;
+  margin: 20px 0px;
 }
 
 .text {
 background-color: grey;
 border-radius: 30px;
 padding: 20px;
+box-shadow: 1px 1px #cea582;
 } #text-1 {
   width: 70%;
 } #text-2 {
-  width: 30%;
+  width: 35%;
   height: 80%;
   transition: 1s ease;
   opacity: 0;
@@ -68,12 +71,12 @@ padding: 20px;
 .container1{
   display: flex;
   justify-content: space-between;
-  margin: 10px 50px;
+  margin: 10px 10%;
 }
 
 .container2 {
   display: flex;
-  margin: 0px 50px;
+  margin: 0px 10%;
   margin-top: 35px;
   justify-content: space-between;
 }
@@ -87,7 +90,7 @@ padding: 20px;
   height: 250px;
   width: 250px;
   margin: 25px;
-  margin-right: 150px;
+  margin-right: 75px;
   transition: 1s ease transform;
   background-image: url('../bétonlogo.png');
 }
@@ -97,10 +100,30 @@ padding: 20px;
 }
 
 #content {
+  box-shadow: 1px 1px #cea582;
   background-color: grey;
   padding: 15px;
   border-radius: 33px;
   transition: .9s ease opacity,.9s ease transform;
   opacity: 0;
   transform: scale(0);
+}
+
+#ruby {
+  margin-top: 0px;
+  height: 142px;
+  width: 142px;
+}
+
+#rubycase {
+  margin: 0px;
+  justify-content: center;
+}
+
+#ruby-title {
+  margin: 0px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 25px;
 }

@@ -1,5 +1,3 @@
-console.log("hello")
-
 const dropTarget = document.getElementById('dropTarget');
 const dropApparition = document.getElementById('dropApparition');
 
@@ -14,7 +12,7 @@ function slideDrop(menuActif) {
   }
 }
 
-dropTarget.addEventListener("click", function() { slideDrop(dropApparition) });
+dropTarget.addEventListener("click", function() {slideDrop(dropApparition)});
 
 // function slideShare(menuActif) {
 //   menuActif.classList.toggle("positionPasCachée");
