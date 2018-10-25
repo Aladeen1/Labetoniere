@@ -17,7 +17,7 @@ ul {
 
 .navbar {
   position: absolute;
-  height: 21vh;
+  height: 25vh;
   width: 100%;
   z-index: 1;
   background-color: transparent;
@@ -130,7 +130,7 @@ ul {
 /* <!------Première section------ MENU + L0G0 + TITRE + Flèche --------> */
 
 .landing-p {
-  background-image: url('fontbéton.jpg');
+  background-image: url('https://res.cloudinary.com/ebc-industries/image/upload/v1540394527/photo-1530482817083-29ae4b92ff15.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -141,8 +141,37 @@ ul {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 13vw;
-  padding-top: 13%;
+  width: 25vw;
+  padding-top: 50%;
+}
+
+@media screen and (min-width: 440px) {
+  .logo-landing-p img {
+    width: 20vw;
+    padding-top: 35%;
+  }
+}
+
+@media screen and (min-width: 570px) {
+  .logo-landing-p img {
+    width: 20vw;
+    padding-top: 25%;
+  }
+}
+
+@media screen and (min-width: 830px) {
+  .logo-landing-p img {
+    width: 15vw;
+    padding-top: 15%;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .logo-landing-p img {
+    width: 10vw;
+    padding-top: 8%;
+
+  }
 }
 
 .titre-landing-p h1 {
@@ -151,8 +180,29 @@ ul {
   color: white;
   text-align: center;
   margin: 0px;
-  font-size: 7vw;
-  padding-top: 3%;
+  font-size: 10vw;
+  padding-top: 13%;
+}
+
+@media screen and (min-width: 600px) {
+  .titre-landing-p h1 {
+    font-size: 8vw;
+    padding-top: 7%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .titre-landing-p h1 {
+    font-size: 7vw;
+    padding-top: 4%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .titre-landing-p h1 {
+    font-size: 5vw;
+    padding-top: 3%;
+  }
 }
 
 
@@ -160,8 +210,29 @@ ul {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 7%;
-  padding-top: 9%;
+  width: 10%;
+  padding-top: 13%;
+}
+
+@media screen and (min-width: 700px) {
+  .arrow-landing-p img {
+    padding-top: 20px;
+    width: 8%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .arrow-landing-p img {
+    padding-top: 40px;
+    width: 5%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .arrow-landing-p img {
+    padding-top: 40px;
+    width: 5%;
+  }
 }
 
 /* <!----Seconde section--------LES DEUX TEXTES, // INTRO 1 & 2------> */
@@ -173,23 +244,62 @@ ul {
 .intro1 {
   font-family: 'Bai Jamjuree', sans-serif;
   text-align: center;
-  font-size: 24px;
-  padding-top: 70px;
-  padding-left: 10%;
-  padding-right: 10%;
+  font-size: 20px;
+  padding-top: 100px;
+  padding-left: 17%;
+  padding-right: 17%;
   margin: auto;
-  text-shadow: 1px 1px #FFDE8B;
+}
+
+@media screen and (min-width: 600px) {
+  .intro1 {
+    font-size: 24px;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .intro1 {
+    font-size: 28px;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
 }
 
 .intro2 {
   text-align: center;
-  font-family: 'Exo 2', sans-serif;
-  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
   padding-top: 70px;
-  padding-left: 7%;
-  padding-right: 7%;
+  padding-left: 17%;
+  padding-right: 17%;
   margin: auto;
 }
+
+@media screen and (min-width: 600px) {
+  .intro2 {
+    font-size: 19px;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .intro2 {
+    font-size: 21px;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+}
+
+.span-intro1, .span2-intro1 {
+  text-decoration: underline rgb(168, 0, 0);
+}
+
+
+
 
 
 /* <!----Troisième section------LE TEL N°1 + BRAND NAME + EXPLICATION------> */
@@ -200,6 +310,12 @@ ul {
   z-index: -3;
   height: 100vh;
   width: 100vw
+}
+
+@media screen and (min-width: 1000px) {
+  .wrap-phones-landing {
+    display: none;
+  }
 }
 
 .phones-landing-p {
@@ -216,16 +332,32 @@ ul {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80vw;
-  padding-top: 70px;
+  width: 70vw;
+  padding-top: 30px;
+}
+
+@media screen and (min-width: 767px) {
+  .phone1 {
+    width: 50vw;
+    padding-top: 110px;
+  }
 }
 
 .inner-image-phone1 {
   position: absolute;
-  width: 72vw;
-  top: 143px;
+  width: 62vw;
+  top: 100px;
   right: 50%;
-  margin-right: -36vw;
+  margin-right: -31vw;
+}
+
+@media screen and (min-width: 767px) {
+  .inner-image-phone1 {
+    width: 42vw;
+    height: 58vh;
+    margin-right: -21vw;
+    top: 210px;
+  }
 }
 
 .brand-phone1 h4 {
@@ -235,6 +367,12 @@ ul {
   color: white;
   padding-top: 30px;
   text-align: center;
+}
+
+@media screen and (min-width: 767px) {
+  .brand-phone1 h4 {
+    font-size: 30px;
+  }
 }
 
 .brand-phone1 p {
@@ -250,6 +388,89 @@ ul {
   margin-bottom: 0px;
 }
 
+@media screen and (min-width: 767px) {
+  .brand-phone1 p {
+    font-size: 25px;
+  }
+}
+
+/* ------SECTION LAPTOP 1------------- */
+
+.wrap-laptop-landing {
+  padding-top: 80px;
+  position: sticky;
+  bottom: 0;
+  z-index: -3;
+  height: 100vh;
+  width: 100vw
+}
+
+@media screen and (max-width: 1000px) {
+  .wrap-laptop-landing {
+    display: none;
+  }
+}
+
+.laptops-landing-p {
+  background-image: linear-gradient(to bottom, #6a727a, #7c8790, #8f9ca6, #a2b2be, #b6c8d5);
+}
+
+.laptop1-div {
+  position: relative;
+}
+
+.laptop1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60vw;
+  padding-top: 60px;
+}
+
+.inner-image-laptop1 {
+  position: absolute;
+  width: 53vw;
+  height: 81%;
+  top: 63px;
+  right: 50%;
+  margin-right: -26.5vw;
+}
+
+@media screen and (min-width: 1100px) {
+  .inner-image-laptop1 {
+    height: 83%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .inner-image-laptop1 {
+    height: 85%;
+  }
+}
+
+.brand-laptop1 h4 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.brand-laptop1 p {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 80px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+
+
 /* <!----Quatrième section------LE TEL N°2 + BRAND NAME + EXPLICATION------> */
 
 .wrap2-phones-landing {
@@ -259,6 +480,12 @@ bottom: 0;
 z-index: -4;
 height: 140vh;
 width: 100vw
+}
+
+@media screen and (min-width: 1000px) {
+  .wrap2-phones-landing {
+    display: none;
+  }
 }
 
 
@@ -274,18 +501,34 @@ width: 100vw
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80vw;
+  width: 70vw;
   margin-top: 265px;
-  padding-top: 70px;
+  padding-top: 30px;
+}
+
+@media screen and (min-width: 767px) {
+  .phone2 {
+    width: 50vw;
+    padding-top: 235px;
+  }
 }
 
 .inner-image-phone2 {
   position: absolute;
-  width: 72vw;
-  top: 143px;
+  width: 62vw;
+  top: 100px;
   right: 50%;
-  margin-right: -36vw;
+  margin-right: -31vw;
 
+}
+
+@media screen and (min-width: 767px) {
+  .inner-image-phone2 {
+    width: 42vw;
+    height: 58vh;
+    margin-right: -21vw;
+    top: 330px;
+  }
 }
 
 .brand-phone2 h4 {
@@ -295,6 +538,12 @@ width: 100vw
   color: white;
   padding-top: 30px;
   text-align: center;
+}
+
+@media screen and (min-width: 767px) {
+  .brand-phone2 h4 {
+    font-size: 30px;
+  }
 }
 
 .brand-phone2 p {
@@ -310,12 +559,92 @@ width: 100vw
   margin-bottom: 0px;
 }
 
+@media screen and (min-width: 767px) {
+  .brand-phone2 p {
+    font-size: 25px;
+  }
+}
+
+.wrap-laptop2-landing {
+  padding-top: 80px;
+  position: sticky;
+  bottom: 0;
+  z-index: -4;
+  height: 100vh;
+  width: 100vw
+}
+
+@media screen and (max-width: 1000px) {
+  .wrap-laptop2-landing {
+    display: none;
+  }
+}
+
+.laptops2-landing-p {
+  background-image: radial-gradient(circle, #b6399b, #806fcb, #4791d4, #53a8c4, #89b6b6);
+}
+
+.laptop2-div {
+  position: relative;
+}
+
+.laptop2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60vw;
+  padding-top: 60px;
+}
+
+.inner-image-laptop2 {
+  position: absolute;
+  width: 53vw;
+  height: 49.8vh;
+  top: 63px;
+  right: 50%;
+  margin-right: -26.5vw;
+}
+
+@media screen and (min-width: 1100px) {
+  .inner-image-laptop2 {
+    height: 83%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .inner-image-laptop2 {
+    height: 85%;
+  }
+}
+
+.brand-laptop2 h4 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.brand-laptop2 p {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 80px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+
 
 /* ------------Phone 3-------------- */
 
 
 .wrap3-phones-landing {
-padding-top: 80px;
+padding-top: 30px;
 position: sticky;
 bottom: 0;
 z-index: -5;
@@ -323,9 +652,17 @@ height: 140vh;
 width: 100vw
 }
 
+@media screen and (min-width: 1000px) {
+  .wrap3-phones-landing {
+    display: none;
+  }
+}
+
 
 .phones-landing-p3 {
-  background-image: url('https://images.unsplash.com/photo-1515462277126-2dd0c162007a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b9b8ca05b253e33c9009832bca8d68c0&auto=format&fit=crop&w=635&q=80');
+  background-image: url('https://images.unsplash.com/photo-1526030453256-94f63a2b4408?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2e9d027884bd63da9fcfa48bab1ecfb4&auto=format&fit=crop&w=729&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .phone3-div {
@@ -336,19 +673,35 @@ width: 100vw
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80vw;
+  width: 70vw;
   margin-top: 265px;
-  padding-top: 70px;
+  padding-top: 30px;
+}
+
+@media screen and (min-width: 767px) {
+  .phone3 {
+    width: 50vw;
+    padding-top: 235px;
+  }
 }
 
 .inner-image-phone3 {
   position: absolute;
-  width: 72vw;
-  height: 70vh;
-  top: 143px;
+  width: 62vw;
+  height: 61vh;
+  top: 100px;
   right: 50%;
-  margin-right: -36vw;
+  margin-right: -31vw;
 
+}
+
+@media screen and (min-width: 767px) {
+  .inner-image-phone3 {
+    width: 42vw;
+    height: 58vh;
+    margin-right: -21vw;
+    top: 330px;
+  }
 }
 
 .brand-phone3 h4 {
@@ -358,6 +711,12 @@ width: 100vw
   color: white;
   padding-top: 30px;
   text-align: center;
+}
+
+@media screen and (min-width: 767px) {
+  .brand-phone3 h4 {
+    font-size: 30px;
+  }
 }
 
 .brand-phone3 p {
@@ -373,12 +732,94 @@ width: 100vw
   margin-bottom: 0px;
 }
 
+@media screen and (min-width: 767px) {
+  .brand-phone3 p {
+    font-size: 25px;
+  }
+}
+
+.wrap-laptop3-landing {
+  padding-top: 80px;
+  position: sticky;
+  bottom: 0;
+  z-index: -5;
+  height: 100vh;
+  width: 100vw
+}
+
+@media screen and (max-width: 1000px) {
+  .wrap-laptop3-landing {
+    display: none;
+  }
+}
+
+.laptops3-landing-p {
+  background-image: url('https://images.unsplash.com/photo-1526030453256-94f63a2b4408?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2e9d027884bd63da9fcfa48bab1ecfb4&auto=format&fit=crop&w=729&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.laptop3-div {
+  position: relative;
+}
+
+.laptop3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60vw;
+  padding-top: 60px;
+}
+
+.inner-image-laptop3 {
+  position: absolute;
+  width: 53vw;
+  height: 49.8vh;
+  top: 63px;
+  right: 50%;
+  margin-right: -26.5vw;
+}
+
+@media screen and (min-width: 1100px) {
+  .inner-image-laptop3 {
+    height: 83%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .inner-image-laptop3 {
+    height: 85%;
+  }
+}
+
+.brand-laptop3 h4 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.brand-laptop3 p {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 80px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+
 
 @media screen and (max-width: 600px) {
   .stylelist {
     width: 25vw;
   }
-  .arrow-landing-p img {
+  /* .arrow-landing-p img {
     width: 13%;
     padding-top: 15%;
   }
@@ -389,7 +830,7 @@ width: 100vw
   .logo-landing-p img  {
     width: 31vw;
     padding-top: 42%;
-  }
+  } */
   .navbar {
     height: 26vh;
   }
@@ -451,6 +892,20 @@ width: 100vw
   overflow: hidden;
 
 }
+
+@media screen and (min-width: 430px) {
+  .hero {
+    height: 70vh
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .hero {
+    height: 75vh
+  }
+}
+
+
 .grid {
   transform: rotate(45deg);
 }
