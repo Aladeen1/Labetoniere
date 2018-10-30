@@ -32,7 +32,7 @@ function litourné(){
   start = setInterval(myFunction, 10);
   content.style.display = 'block';
   window.setTimeout(function(){
-    content.style.opacity = 1; //fait apparaître les icons
+    content.style.opacity = '1'; //fait apparaître les icons
     content.style.transform = 'scale(1)';
     text2.style.opacity = '1'; // fait apparaître le texte à côté
   }, 300);
@@ -48,7 +48,7 @@ function lipatourné(){
   deg = (deg - 720);
 
   clearInterval(start)
-  content.style.opacity = 0;
+  content.style.opacity = '0';
   content.style.transform = 'scale(0)';
   window.setTimeout(function(){
     content.style.display = 'none';
