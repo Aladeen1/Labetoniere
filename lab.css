@@ -295,9 +295,36 @@ html,body
   text-decoration: underline rgb(168, 0, 0);
 }
 
+/* ----- Bouton service -------- */
 
+.button-services {
+  text-decoration: none;
+  text-align: center;
+  width: 20%;
+  padding: 10px;
+  font-size: 25px;
+  margin: auto;
+  margin-top: 55px;
+  background-color:  #F2994A;
+  color: white;
+  font-family: Raleway;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  border-radius: 30px;
+  /*box-shadow: 2px 2px #e4cdb8;*/
+  border: solid 2px #e4cdb8;
+  transition: .5s;
+}
 
+.button-services:hover {
+  background-color: rgba(242, 153, 74, 0.6);
+  border: solid 2px #F2994A;
+}
 
+.button-services-positionning {
+  display: flex;
+  justify-content: center;
+}
 
 /* <!----Troisième section------LE TEL N°1 + BRAND NAME + EXPLICATION------> */
 .wrap-phones-landing {

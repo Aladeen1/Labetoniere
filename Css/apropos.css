@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(#585353 20%, rgba(6, 2, 16, 0.95) 100%);
+  background: linear-gradient(#585353 20%, rgba(6, 2, 16, 0.95) 100%) fixed;
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 30px;
@@ -42,7 +42,7 @@ h1 {
 }
 
 .text {
-background-color: grey;
+background-color: #716f6f;
 border-radius: 30px;
 padding: 20px;
 box-shadow: 1px 1px #cea582;
@@ -101,7 +101,7 @@ box-shadow: 1px 1px #cea582;
 
 #content {
   box-shadow: 1px 1px #cea582;
-  background-color: grey;
+  background-color: #716f6f;
   padding: 15px;
   border-radius: 33px;
   transition: .9s ease opacity,.9s ease transform;
